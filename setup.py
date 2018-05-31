@@ -14,7 +14,7 @@ CLASSIFIERS = [
 
 version = '2.4.6'
 
-desc = str(open(os.path.join('docs', 'source', 'README.rst')).read().strip(), 'utf-8')
+desc = str(open(os.path.join('docs', 'source', 'README.rst')).read().strip())
 changes = open(os.path.join('docs', 'source', 'HISTORY.rst')).read().strip()
 long_description = desc + '\n\nChanges:\n========\n\n' + changes
 
